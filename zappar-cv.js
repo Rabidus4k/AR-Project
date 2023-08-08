@@ -5295,7 +5295,7 @@
                                 let t = document.createElement("span");
                                 t.innerText = " (30)",
                                     e.append(t);
-                                let r = 999;
+                                let r = 30;
                                 setInterval((function () {
                                     r--,
                                         r >= 0 && (t.innerText = " (" + r.toString() + ")")
